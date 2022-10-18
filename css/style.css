@@ -163,11 +163,6 @@ body {
   cursor: pointer;
 }
 
-.num-people .error {
-  border: 2px solid #e17457;
-  cursor: pointer;
-}
-
 .to-pay {
   display: flex;
   justify-content: space-between;
@@ -185,17 +180,17 @@ body {
 }
 
 .tip-amount h3 {
-    color: #ffffff;
-    font-size: medium;
-    margin-top: 15px;
-    font-weight: 600;
+  color: #ffffff;
+  font-size: medium;
+  margin-top: 15px;
+  font-weight: 600;
 }
 
 .tip-amount p {
-    color: #547878;
-    font-size: small;
-    font-weight: 600;
-    margin-bottom: 40px;
+  color: #547878;
+  font-size: small;
+  font-weight: 600;
+  margin-bottom: 40px;
 }
 
 .tip-amount h1 {
@@ -205,40 +200,27 @@ body {
 }
 
 .resetbtn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    background-color: #26c2ae;
-    border: 2px solid #26c2ae;
-    height: 45px;
-    border-radius: 6px;
-    width: 330px;
-    font-size: 20px;
-    font-weight: 600;
-    color:#00474b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #26c2ae;
+  border: 2px solid #26c2ae;
+  height: 45px;
+  border-radius: 6px;
+  width: 330px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #00474b;
 }
 
 .resetbtn:hover {
-    background-color: #9fe8df;
-    border: 2px solid #9fe8df;
-    cursor: pointer;
+  background-color: #9fe8df;
+  border: 2px solid #9fe8df;
+  cursor: pointer;
 }
 
-/* .tip-tip div {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 36px;
+.error {
+  border: 2px solid #e17457;
+  cursor: pointer;
 }
-
-.tip div > * {
-  margin: 8px 0px;
-  padding: 0px;
-}
-
-.tip h1 {
-  color: #26c2ae;
-  font-size: 48px;
-  margin: 0px;
-  padding: 0px;
-} */
